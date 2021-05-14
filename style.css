@@ -1,0 +1,1161 @@
+html {
+    height:100%;
+}
+
+.body1 {
+  font-family: Verdana;
+  background-color:gray;
+  margin:0;
+  background-color: white;
+  /*background: url('PPLogo.png') no-repeat center center;*/
+  background-attachment:scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    }
+    
+.body1:after {
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url("PPLogo.png") center center;
+      
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+
+nav {
+  background: #4f8ca6;
+  font-family: Verdana;
+  font-size: 20px;
+  grid-area: nav;
+  margin: 0px;
+  padding: 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: #e6f2ff;
+}
+/*
+nav a::before {
+   content:'';
+   display: block;
+   height: 7px;
+   background-color: #003366;
+   position: absolute;
+   top: 0;
+   width: 0%;
+   transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 10%;
+}
+*/
+
+main {
+  background-color: #7b8c88;
+  color: White;
+  padding: 10px;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 20px;
+  grid-area: main;
+}
+
+.section1 {
+  background-color: #7b8c88;
+  color: White;
+  padding: 10px;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 20px;
+  grid-area: main;
+}
+
+body {
+  margin: 0;
+}
+
+section a {
+  text-decoration: none;
+  color: white;
+}
+.section2 h1 {
+  text-align: center;
+}
+
+.section2 {
+  padding: 10px;
+  font-size: 20px;
+  font-family: Verdana;
+  background-color: #bf212e;
+  color: white;
+  border: solid white 10px;
+  text-align: center;
+  grid-area: section2;
+}
+
+
+.section3 {
+  background-color: #4f8ca6;
+  color: white;
+  font-size: 20px;
+  font-family: Verdana;
+  padding: 10px;
+  text-align: center;
+  border: solid white 10px;
+  grid-area: section3;
+}
+
+.section4 {
+  background-color: #cac537;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: Verdana;
+  border: solid white 10px;
+  grid-area: section4;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #7b8c88;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: Verdana;
+  grid-area:footer;
+  border: inset white 10px;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #323438;
+}
+
+.section2 a:hover {
+  color: #FFF33B;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*.parallax {
+  background-image: url("PPLogo.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*/
+.fig1 {
+  margin: 0;
+  width: 800px;
+}
+
+img {
+  border: solid white 5px;
+}
+/*-----------About----------*/
+
+.section5 {
+padding: 10px;
+  font-size: 20px;
+  font-family: Verdana;
+  background-color: #bf212e;
+  color: white;
+  border: solid white 10px;
+  grid-area: section5;
+}
+.section5 p {
+  font-family: Apple Chancery, cursive;
+}
+
+.section6 {
+  padding: 10px;
+  font-family: Verdana;
+  color: white;
+  grid-area: section6;
+}
+
+html {
+    height:100%;
+}
+
+.body2 {
+  font-family: Verdana;
+  background-color:gray;
+  margin:0;
+  background-color: white;
+  /*background: url('AboutUs.png') no-repeat center center;*/
+  background-attachment:scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    }
+    
+.body2:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url("AboutUs.png") center center;
+      
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+/*----------Staff----------*/
+html {
+    height:100%;
+}
+
+.body3 {
+  font-family: Verdana;
+  background-color:gray;
+  margin:0;
+  background-color: white;
+  /*background: url('Staff.jpg') no-repeat center center;*/
+  background-attachment:scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    }
+    
+.body3:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url("Staff.jpg") center center;
+      
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+/*----------Testimonials----------*/
+
+html {
+    height:100%;
+}
+
+.body4 {
+  font-family: Verdana;
+  background-color:gray;
+  margin:0;
+  background-color: white;
+  /*background: url('testimonials.png') no-repeat center center;*/
+  background-attachment:scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    }
+    
+.body4:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url("testimonials.png") center center;
+      
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+
+/*-----------Clip-n-Fluff----------*/
+
+  .section2 ul {
+    text-align: left;
+  }
+  
+  .section3 ul {
+    text-align: left;
+  }
+  
+  .section4 ul {
+    text-align: left;
+  }
+  
+  .section7 {
+  padding: 10px;
+  font-size: 20px;
+  font-family: Verdana;
+  background-color: #cac537;
+  color: white;
+  border: solid white 10px;
+  grid-area: section7;
+  
+  }
+  
+  html {
+    height:100%;
+}
+
+.body5 {
+  font-family: Verdana;
+  background-color:gray;
+  margin:0;
+  background-color: white;
+  /*background: url('fluff.png') no-repeat center center;*/
+  background-attachment:scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    }
+    
+.body5:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url("fluff.png") center center;
+      
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+/*----------Stay-n-Play-----------*/
+
+ html {
+    height:100%;
+}
+
+.body6 {
+  font-family: Verdana;
+  background-color:gray;
+  margin:0;
+  background-color: white;
+  /*background: url('play.png') no-repeat center center;*/
+  background-attachment:scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    }
+    
+.body6:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url("play.png") center center;
+      
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+/*----------The Bark-ery Shop-----------*/
+
+html {
+    height:100%;
+}
+
+.body7 {
+  font-family: Verdana;
+  background-color:gray;
+  margin:0;
+  background-color: white;
+  /*background: url('bark.png') no-repeat center center;*/
+  background-attachment:scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    }
+    
+.body7:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url("bark.png") center center;
+      
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+/*----------Mutt Shots----------*/
+html {
+    height:100%;
+}
+
+.body8 {
+  font-family: Verdana;
+  background-color:gray;
+  margin:0;
+  background-color: white;
+  /*background: url('mutt.png') no-repeat center center;*/
+  background-attachment:scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    }
+    
+.body8:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url("mutt.png") center center;
+      
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+/*----------------------grid area stuff----------------------*/
+
+.item-a {
+  grid-area: top;
+}
+
+.item-b {
+  grid-area: middle;
+}
+
+.item-c {
+  grid-area: bottom;
+}
+
+.first {
+  grid-area: first;
+  margin: auto;
+}
+.second {
+  grid-area: second;
+}
+
+.third {
+  grid-area: third;
+}
+
+.fourth {
+  grid-area: fourth;
+}
+
+.fifth {
+  grid-area: fifth;
+}
+
+.sixth {
+  grid-area: sixth;
+}
+.seventh {
+  grid-area:seventh;
+}
+
+.fig4{
+  grid-area: fig4;
+}
+
+.fig5{
+  grid-area: fig5;
+}
+
+.fig6{
+  grid-area: fig6;
+}
+
+.section1 {
+  grid-area: section1;
+}
+
+  #navwrapper {
+    display:grid;
+    grid-template-areas:
+    "first"
+    "second"
+    "third"
+    "fourth"
+    "fifth"
+    "sixth"
+    "seventh";
+    }
+    
+/*----------Phone----------*/
+  .container1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 80vh 0 0 0;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+    }
+    
+    .container2 {
+      display: grid;
+  grid-template-columns: 1fr;
+  margin: 80vh 0 0 0;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+    }
+    
+    .container3 {
+      display: grid;
+  grid-template-columns: 1fr;
+  margin:0;
+  margin-top:80vh;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+    }
+    
+    .container4 {
+      display: grid;
+  grid-template-columns: 1fr;
+  margin:0;
+  margin-top:80vh;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+    }
+    
+    .container5 {
+      display: grid;
+  grid-template-columns: 1fr;
+  margin:0;
+  margin-top:80vh;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+    }
+    
+     .container6 {
+      display: grid;
+  grid-template-columns: 1fr;
+  margin:0;
+  margin-top:80vh;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+    }
+    
+    .container8 {
+      display: grid;
+  grid-template-columns: 1fr;
+  margin:0;
+  margin-top:80vh;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+    }
+    
+    
+  .homegid {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin:0;
+  justify-content:space-around;
+  grid-template-areas:
+    "section1"
+    "fig4"
+    "section2"
+    "fig5"
+    "section3"
+    "fig6"
+    "section4";
+    }
+    
+    .homegrid2 {
+      display: grid;
+  grid-template-columns: 1fr;
+  margin:0;
+  justify-content:space-around;
+  grid-template-areas:
+      "section7"
+      "section5"
+      "section3"
+      "section4"
+      "section6";
+    }
+    
+    .homegrid3 {
+      display: grid;
+  grid-template-columns: 1fr;
+  margin:0;
+  justify-content:space-around;
+  grid-template-areas:
+    "section1"
+    "section2"
+    "section3"
+    "section4"
+    "section5"
+    "section7";
+    }
+    
+    .homegrid4 {
+       display: grid;
+  grid-template-columns: 1fr;
+  margin:0;
+  justify-content:space-around;
+  grid-template-areas:
+      "section1"
+      "section2"
+      "section4"
+      "section3"
+      "section5"
+      "section6";
+    }
+    
+     .homegrid5 {
+       display: grid;
+  grid-template-columns: 1fr;
+  margin:0;
+  justify-content:space-around;
+  grid-template-areas:
+      "section1"
+      "section2"
+      "section3"
+      "section4";
+     }
+    
+    .homegrid5 {
+       display: grid;
+  grid-template-columns: 1fr;
+  margin:0;
+  justify-content:space-around;
+  grid-template-areas:
+    "section1"
+    "section2";
+    }
+    
+    .homegrid8 {
+       display: grid;
+  grid-template-columns: 1fr;
+  margin:0;
+  justify-content:space-around;
+  grid-template-areas:
+      "section1"
+      "section2"
+      "section4"
+      "section3"
+      "section5";
+    }
+
+
+  /*----------HAMBURGER----------*/
+  .toggleNav {
+    display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
+    text-align:center;
+    font-size:1.5em;
+    font-weight:bold;
+    padding:10px;
+    }
+
+#flex-nav ul {
+    display: none; /*jQuery toggles the nav from to this class to the .open when clicked*/
+    text-align:center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+ 
+#flex-nav ul.open { /*.open is the class that gets toggled when clicked (with help from the jQuery code)*/
+    display:grid;
+    }
+    
+#flex-nav li {
+    padding-left:10px;
+    padding-top:10px;
+    }
+/*----------Tablet-----------*/
+@media only screen and (min-width: 480px) {
+ 
+  .container1 {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin:0;
+  margin-top:80vh;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+    }
+    
+    .container2 {
+      display: grid;
+  grid-template-columns: auto 1fr;
+  margin:0;
+  margin-top:80vh;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+    }
+    
+    .container3 {
+      display: grid;
+  grid-template-columns: auto 1fr;
+  margin:0;
+  margin-top:80vh;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+    }
+    
+        .container4 {
+      display: grid;
+  grid-template-columns: auto 1fr;
+  margin:0;
+  margin-top:80vh;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+    }
+    
+    .container5 {
+      display: grid;
+  grid-template-columns: auto 1fr;
+  margin:0;
+  margin-top:80vh;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+    }
+    
+    .container6 {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin:0;
+  margin-top:80vh;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+    }
+    
+    .container8 {
+      display: grid;
+  grid-template-columns: auto 1fr;
+  margin:0;
+  margin-top:80vh;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+    }
+    
+    .homegrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin:0;
+  justify-content:space-around;
+  grid-template-areas:
+    "section1 section1"
+    "fig4 fig4"
+    "section2 section2"
+    "fig5 fig5"
+    "section3 section3"
+    "fig6 fig6"
+    "section4 section4";
+    }
+
+  .homegrid2 {
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin:0;
+  justify-content:space-around;
+  grid-template-areas:
+    "section7 section7"
+    "section5 section5"
+    "section6 section6"
+    "section3 section4";
+  }
+  
+  .homegrid3 {
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin:0;
+  justify-content:space-around;
+  grid-template-areas:
+    "section1 section1"
+    "section2 section3"
+    "section4 section4"
+    "section5 section7";
+  }
+  
+  .homegrid4 {
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin:0;
+  justify-content:space-around;
+  grid-template-areas:
+      "section1 section1"
+      "section2 section4"
+      "section3 section5"
+      "section6 section6";
+  }
+  
+  .homegrid5 {
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin:0;
+  justify-content:space-around;
+  grid-template-areas:
+    "section1 section1"
+    "section2 section2"
+    "section3 sectino3"
+    "section4 section4";
+  }
+  
+  .homegrid5 {
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin:0;
+  justify-content:space-around;
+  grid-template-areas:
+    "section1 section1"
+    "section2 section2";
+  }
+  
+  .homegrid8 {
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin:0;
+  justify-content:space-around;
+  grid-template-areas:
+      "section1 section1"
+      "section2 section2"
+      "section3 section3"
+      "section4 section4"
+      "section5 section5";
+  }
+}
+
+  /*----------HAMBURGER----------*/
+
+.toggleNav {
+    display: grid;
+  }
+  
+  #flex-nav ul {
+    display: none;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  #flex-nave ul.opne {
+    display:grid;
+  }
+  
+  #flex-nav li {
+    padding-left: 10px;
+    padding-top: 10px;
+    }
+  
+  #flex-nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #flex-nav a:hover {
+    color: #e6f2ff;
+  }
+
+
+/*---------------------Desktop---------------------*/
+
+@media only screen and (min-width: 960px)  {
+  
+  .container1 {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin:0;
+  margin-top:80vh;
+  grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "main main main"
+    "footer footer footer";
+    }
+    
+    .container2 {
+      display: grid;
+  grid-template-columns: auto 1fr;
+  margin:0;
+  margin-top:80vh;
+  grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "main main main"
+    "footer footer footer";
+    }
+    
+    .container3 {
+      display: grid;
+  grid-template-columns: auto 1fr;
+  margin:0;
+  margin-top:80vh;
+  grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "main main main"
+    "footer footer footer";
+    }
+    
+    .container4 {
+       display: grid;
+  grid-template-columns: auto 1fr;
+  margin:0;
+  margin-top:80vh;
+  grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "main main main"
+    "footer footer footer";
+    }
+    
+    .container5 {
+       display: grid;
+  grid-template-columns: auto 1fr;
+  margin:0;
+  margin-top:80vh;
+  grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "main main main"
+    "footer footer footer";
+    }
+    
+    .container6 {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin:0;
+  margin-top:80vh;
+  grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "main main main"
+    "footer footer footer";
+    }
+    
+    .container8 {
+       display: grid;
+  grid-template-columns: auto 1fr;
+  margin:0;
+  margin-top:80vh;
+  grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "main main main"
+    "footer footer footer";
+    }
+  
+    .container9 {
+       display: grid;
+  grid-template-columns: auto 1fr;
+  margin:0;
+  margin-top:80vh;
+  grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "main main main"
+    "footer footer footer";
+    }
+    
+     #navwrapper {
+    display:grid;
+    grid-template-areas:
+    "first second third fourth fifth sixth seventh";
+    }
+    
+/*----------HAMBURGER----------*/
+    
+    .toggleNav {
+    display: none; /*Makes the hamburger icon with the word "Menu" to disappear at this screen size*/
+  }
+  
+#flex-nav ul {
+    display:grid;
+    text-align:center;
+  }
+
+#flex-nav li {
+    
+    padding-top:10px;
+    }
+
+
+/*----------Homegrid-----------*/
+      
+      .homegrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content:space-around;
+  grid-template-areas:
+    "section1 section1 section1"
+    "fig4 fig5 fig6"
+    "section2 section3 section4";
+    }
+    
+    .homegrid2 {
+       display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content:space-around;
+  grid-template-areas:
+    "section7 section7 section7"
+    "section5 section5 section6"
+    "section5 section5 section6"
+    "section5 section5 section6"
+    "section5 section5 section6"
+    "section3 section3 section4";
+    }
+    
+    .homegrid3 {
+      display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content:space-around;
+  grid-template-areas:
+    "section1 section1 section1"
+    "section2 section3 section7"
+    "section2 section3 section5"
+    "section4 section4 section4";
+    }
+    
+    .homegrid4 {
+      display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content:space-around;
+  grid-template-areas:
+      "section1 section1 section1"
+      "section2 section3 section3"
+      "section4 section4 section5"
+      "section6 section6 section6";
+    }
+    
+    .homegrid5 {
+      display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content:space-around;
+  grid-template-areas:
+    "section1 section1 section1"
+    "section2 section2 section2"
+    "section3 section3 section3"
+    "section4 section4 section4";
+    }
+    
+    
+    .homegrid6 {
+       display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content:space-around;
+  grid-template-areas:
+    "section1 section1 section1"
+    "section2 section2 section2";
+    }
+    
+    .homegrid8 {
+      display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content:space-around;
+  grid-template-areas:
+     "section2 section2 section2"
+     "section3 section3 section3"
+     "section4 section4 section5";
+    }
+    
+    .homegrid9 {
+      display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content:space-around;
+  grid-template-areas:
+    "section1 section1 section1"
+    "section2 section2 section2"
+    "section3 section3 section6"
+    "section4 section4 section6"
+    "section5 section5 section5";
+    }
+}
+
+
+
+  
